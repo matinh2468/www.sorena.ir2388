@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <title>زمان کاری و اخبار</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* دکمه بازگشت */
+        .back-home {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: white;
+            color: #0077cc;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-home:hover {
+            background-color: #e0e0e0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+
+        .news {
+            margin-top: 20px;
+        }
+
+        .news-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .news-item:last-child {
+            border-bottom: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>زمان کاری و اخبار فروشگاه</h1>
+    <a href="index.html" class="back-home">بازگشت به صفحه اصلی</a>
+</header>
+
+<section>
+    <h2>زمان کاری</h2>
+    <table>
+        <tr>
+            <th>روز هفته</th>
+            <th>ساعت کاری</th>
+        </tr>
+        <tr><td>شنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>یک‌شنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>دوشنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>سه‌شنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>چهارشنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>پنج‌شنبه</td><td>7 صبح تا 9 شب</td></tr>
+        <tr><td>جمعه</td><td>7 صبح تا 2 ظهر</td></tr>
+    </table>
+
+    <h2>اخبار و اطلاعیه‌ها</h2>
+    <div class="news">
+        <div class="news-item">خبر شماره 1: اینجا متن خبر اول می‌آید.</div>
+        <div class="news-item">خبر شماره 2: اینجا متن خبر دوم می‌آید.</div>
+        <div class="news-item">خبر شماره 3: اینجا متن خبر سوم می‌آید.</div>
+    </div>
+</section>
+
+</body>
+</html>
